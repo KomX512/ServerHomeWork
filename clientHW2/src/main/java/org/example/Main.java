@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        String host = "127.0.0.1";
+        String host = "netology.homework";
         int port = 8050;
         Scanner input = new Scanner(System.in);
         try (Socket clientSocket = new Socket(host, port);
